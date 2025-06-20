@@ -21,7 +21,8 @@ wait = WebDriverWait(driver, 20)
 try:
     debug_step(driver, "Page d'accueil chargée")
 
-    # Aller sur un produit
+    # Aller sur un produit hh
+
     print("Recherche du lien produit...")
     product_link = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.product-name a")))
     debug_step(driver, "Produit trouvé")
