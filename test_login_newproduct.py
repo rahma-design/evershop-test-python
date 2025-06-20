@@ -87,6 +87,7 @@ class TestProductCreation:
             WebDriverWait(driver, 3).until(
                 EC.invisibility_of_element(confirm_button)
             )
+            #test
             print(f"Produit '{product_name}' supprimé.")
         else:
             print("Bouton Confirm non trouvé.")
