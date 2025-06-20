@@ -10,7 +10,7 @@ def debug_step(driver, step_name):
     driver.save_screenshot(f"debug_{step_name.lower().replace(' ', '_')}.png")
     time.sleep(2)  # Petite pause pour mieux voir ce qui se passe
 
-# Lancement navigateur
+# Lancement navigateur chrome
 driver = webdriver.Chrome()
 driver.maximize_window()
 
