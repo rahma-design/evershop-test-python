@@ -88,6 +88,8 @@ class TestProductCreation:
                 EC.invisibility_of_element(confirm_button)
             )
             #test
+            #hhhhhhhh
+            
             print(f"Produit '{product_name}' supprimé.")
         else:
             print("Bouton Confirm non trouvé.")
